@@ -1,0 +1,87 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  background-image: linear-gradient(to bottom right, #33adff, #7300e6);
+  color: white;
+  font-size: 1rem;
+  background-image: url("../images/customer.jpg");
+  background-size: cover;
+  margin: 2rem;
+}
+
+#title{
+  font-size: 45px;
+}
+#description{
+  font-size: 20px;
+}
+
+#body{
+  width: 600px;
+  padding: 30px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+#name{
+  width: 500px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#email{
+  width: 500px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#number{
+  width: 500px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#customer{
+  width: 500px;
+  padding: 15px;
+  border-radius: 10px;
+}
+#dropdown{
+  width: 590px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+#submit{
+  width: 590px;
+  padding: 10px;
+  border-radius: 10px;
+  border: round;
+  margin-top: 20px;
+  background-color: orange;
+}
+
+#additional-info{
+  border-radius: 15px;
+  border-color: blue;
+}
+#quality{
+  margin: 1rem;
+}
+#understand{
+  margin: 1rem;
+}
+#time{
+  margin: 1rem;
+}
+#network{
+  margin: 1rem;
+}
+#star{
+  margin-left: 3rem;
+}
+.checked {
+  color: orange;

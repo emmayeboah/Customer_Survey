@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Customer Satisfiction Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Customer Service Survey Form</h1>
+    <p id="description">Thank you for taking part to help us make our website creation better.</p>
+
+    <div id="body">
+    <form  id="survey-form">
+
+      <label id="name-label">
+        <p>Name:</p>
+      </label>
+     <input id="name" type="text" placeholder="Enter Your Name" required>
+
+      <label id="email-label">
+        <p>Email:</p>
+      </label>
+     <input id="email" type="email" placeholder="Enter Your Email">
+
+      <label id="number-label">
+        <p>Age:</p>
+      </label>
+      <input id="number" type="number" placeholder="Enter Your Age">
+
+      <label id="customer-number">
+        <p>Customer Index:</p>
+      </label>
+      <input  id="customer" type="number" placeholder="Enter Your Special Number">
+      <br>
+      <br>
+      <hr>
+      <br>
+    <p>1.Overall,  how would you rate the quality of your customer service experience?</p>
+    <input type="radio" name="service" id="quality" value="1">Very Positive</input>
+    <input type="radio" name="service"  id="quality" value="2">Somewhat positive</input><br>
+    <input type="radio" name="service" id="quality" value="3">Neutral</input>
+    <input type="radio" name="service" id="quality" value="4">Somewhat negative</input><br>
+    <input type="radio" name="service" id="quality" value="5">Very negative</input><br>
+
+    <p>2.How well did we understand your questions and concerns?</p><br>
+    <input type="radio" name="customer" id="understand" value="1">Extremely well</input><br>
+    <input type="radio" name="customer"  id="understand" value="2">Very well</input>
+    <input type="radio" name="customer"  id="understand" value="3">Somewhat well</input><br>
+    <input type="radio" name="customer"  id="understand" value="4">Not so well</input>
+    <input type="radio" name="customer"  id="understand" value="5">Not at all well</input><br>
+
+    <p>3.How much time did it take us to address your questions and concerns?</p>
+    <input type="radio" name="time" id="time" value="1">Much shorter than expected</input><br>
+    <input type="radio" name="time" id="time" value="2">Longer than expected</input>
+    <input type="radio" name="time" id="time" value="3">Shorter than expected</input><br>
+    <input type="radio" name="time" id="time" value="4">Much longer than expected</input>
+    <input type="radio" name="time"id="time"  value="5">About what I expected</input><br><br>
+
+    <p>4.How likely is it that you would recommend to a friend or colleague?</p>
+    <div id="star">
+      <span class="fa fa-star checked" ></span>&nbsp;&nbsp;&nbsp;
+      <span class="fa fa-star checked"></span>&nbsp;&nbsp;&nbsp;
+      <span class="fa fa-star checked"></span>&nbsp;&nbsp;&nbsp;
+      <span class="fa fa-star"></span>&nbsp;&nbsp;&nbsp;
+      <span class="fa fa-star"></span>
+   </div><br><br>
+
+
+    <p>5.Which social network help you connect easily with our company. </p>
+    Select one or more <br>
+    <input type="checkbox" name="nextwork" id="network" value="1">Facebook</input><br>
+    <input type="checkbox" name="nextwork" id="network" value="2">Instagram</input><br>
+    <input type="checkbox" name="nextwork" id="network" value="1">Twitter</input><br>
+    <input type="checkbox" name="nextwork" id="network" value="1">Linkedn</input><br>
+    <input type="checkbox" name="nextwork" id="network" value="1">Gmail</input><br>
+
+
+
+    <p>6. Do you have any other comments, questions or concerns?</p>
+    <textarea  id="additional-info" name="additional" rows="8" cols="80"></textarea><br>
+
+
+    <input type="submit" id="submit">
+
+    </form>
+
+    </div>
+  </body>
+</html>
